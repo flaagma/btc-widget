@@ -100,3 +100,6 @@ if (crypt_single_display_time && crypt_single_getPar.success != false)
             + crypt_single_hour + ':' + crypt_single_minutes + ':' + crypt_single_seconds + ' '
             + crypt_single_time_zone + '\
         </div>');
+
+document.write('<div style="font-size:10px;opacity:0.6;padding-top:10px;">Powered by <a href="https://www.cryptonator.com" style="color:' + crypt_single_font_color + ';" target="_blank">Cryptonator</a></div>\
+</div>');
